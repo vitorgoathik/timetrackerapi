@@ -46,6 +46,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Models\CostReport.cs" />
+    <Compile Include="Repositories\CostReportRepository.cs" />
     <Compile Include="Repositories\UserRepository.cs" />
     <Compile Include="Repositories\TimeRecordRepository.cs" />
     <Compile Include="Repositories\ProjectRepository.cs" />
